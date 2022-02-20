@@ -1,0 +1,546 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+p
+{
+    font-family: calibri;
+}
+
+/*------------ Navbar ------------*/
+.container
+{
+    margin: auto;
+    max-width: calc(90vw);
+    overflow: auto;
+    
+}
+
+nav
+{
+    background: #fff;
+    color: #333;
+    overflow: auto;
+    padding: 7px 0;
+}
+nav a
+{
+    color: #777;
+    text-decoration: none;
+    font-weight: 700;
+}
+nav h1
+{
+    float: left;
+    padding-top: 20px;
+    font-size: 30px;
+}
+nav ul
+{
+    list-style: none;
+    float: right;
+}
+nav ul li
+{
+    float: left;
+}
+nav ul li a
+{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+nav ul li select
+{
+    display: block;
+    margin-top: 26px;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #777;
+}
+
+.getstarted{
+    background-color: #dc143c;
+    padding: 9px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+.getstarted:hover{
+    background-color: #f1365b;
+}
+
+nav ul li a:hover, nav ul li a.current
+{
+    color: #dc143c;
+}
+
+/*----------- Showcase -----------*/
+#showcase
+{
+    background-image: url('./images/main.jpg');
+   
+    color: rgba(255, 255, 255, 0.8);
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+#showcase .showcase_content
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase_content h1
+{
+    font-size: 50px;
+    line-height: 1.2em;
+    padding-bottom: 20px;
+    font-family:'Trebuchet MS';
+}
+#showcase .showcase_content p
+{
+    padding-bottom: 20px;
+    line-height: 1.5em;
+    font-size: 20px;
+    margin: 0 150px;
+}
+.text_primary
+{
+    color: #f7c08a;
+}
+.btn
+{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: calibri;
+    color: #fff;
+    background-color: #dc143c;
+    padding: 9px 30px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btn:hover
+{
+    background-color: #f1365b;
+    
+}
+
+/*------ Content Area ------*/
+#content_area
+{
+    padding: 60px;
+    padding-left: 90px;
+    display: flex;
+    color: #777;
+}
+.left_div
+{
+    float: left;
+    width: 50%;
+}
+.left_div h2
+{
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 1em;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    color: #555;
+}
+.left_div p
+{
+    font-size: 30px;
+    padding-right: 100px;
+    font-family:'Trebuchet MS';
+}
+.right_div
+{
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.right_div p
+{
+    font-size: 20px;
+}
+.right_div .x
+{
+    padding-bottom: 30px;
+}
+.pt
+{
+    display: flex;
+}
+.pt .points
+{
+    margin-left: 12px;
+}
+.pt i
+{
+    color: #dc143c;
+}
+.italic
+{
+    font-style: italic;
+}
+
+.right_div .italic
+{
+    padding-top: 30px;
+}
+/*---- logo section-----*/
+#logos
+{
+    background-color: #f2f3f4;
+    margin-bottom: 10px;
+}
+.bg
+{
+    width: 100vw;
+    display: flex;
+    margin: 0 0px;
+    
+}
+.bg .logo_divs
+{
+    height: 60px;
+    width: 100px;
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.bg .small
+{
+    height: 120px;
+}
+
+/*----- Stats section ---*/
+#stats
+{
+    display: flex;
+    font-family: calibri;
+    margin-bottom: 120px;
+}
+#stats p
+{
+    font-size: 18px;
+    color: #555;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+#stats h3
+{
+    font-size: 22px;
+    color: #444;
+    padding: 10px 0;
+    padding-top: 25px;
+}
+#stats .x .statistics
+{
+    background-color: #f2f3f4;
+    margin: 20px 10px 0 100px;
+    border-radius: 8px;
+}
+#stats .y .statistics
+{
+    background-color: #f2f3f4;
+    margin: 20px 100px 0 10px;
+    border-radius: 8px;
+}
+#stats .statistics
+{
+    display: flex;
+}
+#stats .statistics i
+{
+    padding: 25px;
+    padding-top: 50px;
+    color: #dc143c;
+}
+
+
+/*---- Dont Know Section ------*/
+#dont_know ul
+{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+#dont_know ul li
+{
+    margin: 5px;
+    padding: 3px 18px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #666;
+}
+#dont_know ul li:hover, #dont_know ul li.current
+{
+    background-color: #dc143c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/*----- images section --------*/
+#images
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#images .cols
+{
+    width: 24.6vw;
+}
+#div_1
+{
+    height: 330px;
+    width: 350px;
+    background-image: url(./images/1.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+#div_2
+{
+    height: 530px;
+    width: 350px;
+    background-image: url(./images/2.jpg);
+    background-size: cover;
+    justify-content: right;
+    cursor: pointer;
+}
+#div_3
+{
+    height: 250px;
+    width: 350px;
+    background-image: url(./images/3.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+#div_4
+{
+    height: 500px;
+    width: 350px;
+    background-image: url(./images/4.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+#div_5
+{
+    height: 250px;
+    width: 350px;
+    background-image: url(./images/5.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+#div_6
+{
+    height: 250px;
+    width: 350px;
+    background-image: url(./images/6.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+#div_7
+{
+    height: 240px;
+    width: 350px;
+    background-image: url(./images/7.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+#div_8
+{
+    height: 250px;
+    width: 350px;
+    background-image: url(./images/8.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+#div_9
+{
+    height: 200px;
+    width: 350px;
+    background-image: url(./images/9.jpg);
+    background-size: cover;
+    cursor: pointer;
+}
+.img
+{
+    margin: 25px;
+}
+
+/*----- contact  section ------*/
+#contact
+{
+    display: flex;
+    background-color: #364a5a;
+    color: #fff;
+    font-size: 14px;
+    /*font-family:'Trebuchet MS';*/
+}
+#contact .bottom
+{
+    
+    margin-top: 50px;
+    margin-left: 120px;
+    padding-bottom: 70px;
+}
+#contact .bottom .useful_links, #contact .bottom .our_services
+{
+    display: flex;
+}
+#contact .bottom h3
+{
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-family:'Trebuchet MS';
+}
+#contact .bottom #add1, #add2
+{
+    line-height: 20px;
+    color: #a9a9a9;
+}
+#first
+{
+    margin-top: 25px;
+    line-height: 10px;
+}
+#second
+{
+    line-height: 0px;
+}
+h4 span
+{
+    font-size: 13px;
+    font-weight: 400;
+    color: #a9a9a9;
+    font-family:'Trebuchet MS';
+}
+.bottom .link_icons .fa
+{
+    height: 38px;
+    width: 38px;
+    padding: 13px;
+    margin-top: 25px;
+    margin-right: 8px;
+    border-radius: 4px;
+    background-color: #708090;
+    cursor: pointer;
+}
+
+
+
+#contact .bottom h4
+{
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family:'Trebuchet MS';
+}
+.useful_links, .our_services
+{
+    margin-left: 3px;
+    margin-bottom: 5px;
+    color: #cfc6c6;
+    cursor: pointer;
+}
+.useful_links i, .our_services i
+{
+    margin-right: 5px;
+}
+.last
+{
+    width: 400px;
+}
+.last p
+{
+    color: #a9a9a9;
+    line-height: 17px;
+}
+
+.subscribe
+{
+    display: flex;
+    margin-top: 30px;
+}
+.subscribe .input
+{
+    width: 250px;
+    height: 35px;
+    border-radius: 4px 0 0 4px;
+    border-style: none;
+    font-size: 17px;
+}
+.subscribe .input:focus
+{
+    background-color: #e7feff;
+    outline: none;
+}
+.subscribe .submit
+{
+    width: 90px;
+    height: 35px;
+    border-radius: 0 4px 4px 0;
+    border-style: none;
+    color: #fff;
+    background-color: #dc143c;
+    cursor: pointer;
+}
+.subscribe .submit:hover
+{
+    background-color: #f7c08a;
+    color: #333;
+}
+
+
+
+/*------- footer ------*/
+footer
+{
+    display: flex;
+    background-color: #293844;
+    color: #fff;
+}
+footer .copyright
+{
+    width: 95vw;
+    text-align: center;
+    font-size: 15px;
+    padding: 25px 0;
+}
+footer .copyright span
+{
+    font-weight: 600;
+}
+footer .arrow_up
+{
+    text-align: center;
+    border-radius: 4px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 6px 12px 0 12px;
+    background-color: #dc143c;
+    cursor: pointer;
+}
